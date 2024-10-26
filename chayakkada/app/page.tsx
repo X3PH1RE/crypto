@@ -105,7 +105,7 @@ const Home: React.FC = () => {
         <div
           style={{ display: 'flex',  justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px'}}>
             <div style={{ width: '410px'}}></div>
-            <img src="/Board.png" alt="x" width={"500px"} height={"250px"} padding-top={"0"} margin-top={"0"}/>
+            <Image src="/Board.png" alt="x" width={"500px"} height={"250px"} padding-top={"0"} margin-top={"0"}/>
             <div
               style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center', width: '410px'}}>
 
