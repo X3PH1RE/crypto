@@ -1,8 +1,8 @@
 {
-  "builds": [
-    {
-      "src": "next.config.ts",
-      "use": "@vercel/node"
-    }
-  ]
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/"
+        }
+    ]
 }
